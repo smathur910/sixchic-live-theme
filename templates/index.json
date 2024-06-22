@@ -52,7 +52,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "this new tests from branch",
+            "heading": "this new tests from branch test",
             "heading_size": "h1"
           }
         },
