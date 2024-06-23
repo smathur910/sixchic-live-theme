@@ -44,6 +44,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/ashim-d-silva-ZmgJiztRHXE-unsplash.jpg",
+        "image_2": "shopify:\/\/shop_images\/piotr-szulawski-XjR-Y8PKeww-unsplash_1.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
