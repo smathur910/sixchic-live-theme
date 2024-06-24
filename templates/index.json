@@ -70,7 +70,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "this new tests from branch test",
+            "heading": "Products by Category",
             "heading_size": "h1"
           }
         },
