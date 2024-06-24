@@ -94,6 +94,11 @@
         "padding_bottom": 0
       }
     },
+    "custom_product_blocks_NDtArk": {
+      "type": "custom-product-blocks",
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -232,6 +237,7 @@
   "order": [
     "slideshow_pdVLFF",
     "rich_text",
+    "custom_product_blocks_NDtArk",
     "featured_collection",
     "collage",
     "video",
