@@ -1,7 +1,12 @@
 p {
     font-size: 16px;
 }
-
+.btn.btn-primary {
+    background: #000;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
 .custom-product-block .card img{
     width: 100%;
     height: 100%;
@@ -12,4 +17,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.custom-product-block h5.card-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
 }
