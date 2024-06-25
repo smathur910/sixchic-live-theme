@@ -142,6 +142,55 @@
       "settings": {
       }
     },
+    "image_banner_zwMpnL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f3CmFN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_4W39Rn": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ygVnRW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f3CmFN",
+        "text_4W39Rn",
+        "buttons_ygVnRW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-in-park-afternoon.jpeg",
+        "image_2": "shopify:\/\/shop_images\/woman-in-sports-clothes-stands-on-a-beach-in-the-morning-light.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -281,6 +330,7 @@
     "slideshow_pdVLFF",
     "rich_text",
     "custom_product_blocks_Y3Qf6a",
+    "image_banner_zwMpnL",
     "featured_collection",
     "collage",
     "video",
