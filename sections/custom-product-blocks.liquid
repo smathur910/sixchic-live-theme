@@ -1,8 +1,10 @@
 <div class="page-width page-width-desktop ">
     <div class="row">
-        <div class="col-md-3 col-12">
+        {% for block in section.blocks %}
+            <div class="col-md-3 col-12">
             <div class="card mb-3">
-                <img src="https://placehold.co/600x400" class="card-img-top" alt="placeholder" />
+                {% assign image_url = block.settings.image %}
+                <img src="{{ image_url }}" width="100%" height="auto" class="card-img-top" alt="placeholder" />
                 <div class="card-img-overlay">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -11,6 +13,8 @@
                 </div>
             </div>
         </div>
+        {% endfor %}
+        
     </div>
 </div>
 
