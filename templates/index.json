@@ -94,25 +94,47 @@
         "padding_bottom": 0
       }
     },
-    "custom_product_blocks_NDtArk": {
+    "custom_product_blocks_Y3Qf6a": {
       "type": "custom-product-blocks",
       "blocks": {
-        "column_k9D7HM": {
+        "column_N7K3V9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg"
+            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg",
+            "product_title": "workwear",
+            "product_link": ""
           }
         },
-        "column_DxyEYc": {
+        "column_PpehnF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg"
+            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg",
+            "product_title": "Resortwear",
+            "product_link": ""
+          }
+        },
+        "column_MmW9FV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg",
+            "product_title": "clubbing",
+            "product_link": ""
+          }
+        },
+        "column_cqhEjR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg",
+            "product_title": "on-trend",
+            "product_link": ""
           }
         }
       },
       "block_order": [
-        "column_k9D7HM",
-        "column_DxyEYc"
+        "column_N7K3V9",
+        "column_PpehnF",
+        "column_MmW9FV",
+        "column_cqhEjR"
       ],
       "settings": {
       }
@@ -255,7 +277,7 @@
   "order": [
     "slideshow_pdVLFF",
     "rich_text",
-    "custom_product_blocks_NDtArk",
+    "custom_product_blocks_Y3Qf6a",
     "featured_collection",
     "collage",
     "video",
