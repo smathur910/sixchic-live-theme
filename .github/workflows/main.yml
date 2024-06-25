@@ -1,0 +1,28 @@
+name: Auto Merge developer to main
+
+on:
+  push:
+    branches:
+      - developer
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'smathur910'
+          git config --global user.email 'smathur910@gmail.com'
+
+      - name: Merge developer to main
+        run: |
+          git checkout main
+          git pull origin main
+          git merge -X theirs developer
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
