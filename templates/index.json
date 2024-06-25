@@ -212,6 +212,29 @@
         "padding_bottom": 40
       }
     },
+    "rich_text_wtdtE7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f7yqRf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Top Categories",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f7yqRf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -354,6 +377,7 @@
     "custom_liquid_BfHdpf",
     "image_banner_zwMpnL",
     "custom_liquid_QhDeEN",
+    "rich_text_wtdtE7",
     "featured_collection",
     "collage",
     "video",
