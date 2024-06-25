@@ -142,6 +142,15 @@
       "settings": {
       }
     },
+    "custom_liquid_BfHdpf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "image_banner_zwMpnL": {
       "type": "image-banner",
       "blocks": {
@@ -176,6 +185,9 @@
         "text_4W39Rn",
         "buttons_ygVnRW"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/woman-in-park-afternoon.jpeg",
         "image_2": "shopify:\/\/shop_images\/woman-in-sports-clothes-stands-on-a-beach-in-the-morning-light.jpg",
@@ -189,6 +201,15 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "custom_liquid_QhDeEN": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "featured_collection": {
@@ -330,7 +351,9 @@
     "slideshow_pdVLFF",
     "rich_text",
     "custom_product_blocks_Y3Qf6a",
+    "custom_liquid_BfHdpf",
     "image_banner_zwMpnL",
+    "custom_liquid_QhDeEN",
     "featured_collection",
     "collage",
     "video",
