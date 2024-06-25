@@ -97,15 +97,15 @@
     "custom_product_blocks_NDtArk": {
       "type": "custom-product-blocks",
       "blocks": {
-        "slide_AYtnFc": {
-          "type": "slide",
+        "column_k9D7HM": {
+          "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash.jpg"
           }
         }
       },
       "block_order": [
-        "slide_AYtnFc"
+        "column_k9D7HM"
       ],
       "settings": {
       }
