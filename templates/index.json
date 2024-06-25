@@ -102,10 +102,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg"
           }
+        },
+        "column_DxyEYc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/susan-wilkinson-Xe3Oy1l7MjE-unsplash-min_1.jpg"
+          }
         }
       },
       "block_order": [
-        "column_k9D7HM"
+        "column_k9D7HM",
+        "column_DxyEYc"
       ],
       "settings": {
       }
