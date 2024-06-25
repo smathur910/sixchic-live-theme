@@ -1,50 +1,91 @@
 <div class="page-width page-width-desktop custom-product-block">
-    <div class="row">
-        {% for block in section.blocks limit: 4 %}
-            <div class="col-md-3 col-12">
-                <div class="card mb-3">
-                    {% if block.settings.image %}
-                        <img src="{{ block.settings.image | img_url: 'master' }}" width="100%" height="auto" class="card-img-top" alt="placeholder" />
-                    {% endif %}
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">{{ block.settings.product_title | default: 'Product Name' }}</h5>
-                        <a href="{{ block.settings.product_link }}" class="btn btn-primary">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+  <div class="row">
+    {% for block in section.blocks limit: 4 %}
+      <div class="col-md-3 col-12 product-block">
+        <div class="card mb-3">
+          {% if block.settings.image %}
+            <img
+              src="{{ block.settings.image | img_url: 'master' }}"
+              width="100%"
+              height="auto"
+              class="card-img-top"
+              alt="placeholder"
+            >
+          {% endif %}
+          <div class="card-img-overlay">
+            <h5 class="card-title">{{ block.settings.product_title | default: 'Product Name' }}</h5>
+            <a href="{{ block.settings.product_link }}" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
 {
-    "name": "Product Block",
-    "settings": [],
-    "presets": [{"name": "Custom Product Section"}],
-    "blocks": [
+  "name": "Product Block",
+  "settings": [],
+  "presets": [{ "name": "Custom Product Section" }],
+  "blocks": [
+    {
+      "name": "Products",
+      "type": "column",
+      "settings": [
         {
-            "name": "Products",
-            "type": "column",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Image"
-                },
-                {
-                    "type": "text",
-                    "id": "product_title",
-                    "label": "Product Title",
-                    "default": "Product Name"
-                },
-                {
-                    "type": "url",
-                    "id": "product_link",
-                    "label": "Link",
-                    "info": "Enter the URL for the link"
-                }
-            ]
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title",
+          "default": "Product Name"
+        },
+        {
+          "type": "url",
+          "id": "product_link",
+          "label": "Link",
+          "info": "Enter the URL for the link"
         }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}
+
+<style>
+  .product-block {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .product-block.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const blocks = document.querySelectorAll('.product-block');
+
+    function checkVisibility() {
+      const windowHeight = window.innerHeight;
+      blocks.forEach((block, index) => {
+        const blockTop = block.getBoundingClientRect().top;
+        if (blockTop < windowHeight) {
+          setTimeout(() => {
+            block.classList.add('visible');
+          }, index * 150);
+        }
+      });
+    }
+
+    window.addEventListener('scroll', checkVisibility);
+    window.addEventListener('resize', checkVisibility);
+    checkVisibility();
+  });
+</script>
