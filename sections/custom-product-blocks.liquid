@@ -2,7 +2,7 @@
   <div class="row">
     {% for block in section.blocks limit: 4 %}
       <div class="col-md-3 col-12 product-block">
-        <div class="card mb-3">
+        <div class="card main-card mb-3">
           {% if block.settings.image %}
             <img
               src="{{ block.settings.image | img_url: 'master' }}"
