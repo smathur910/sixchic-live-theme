@@ -1,50 +1,50 @@
 <div class="page-width page-width-desktop custom-product-block">
     <div class="row">
-        {% for block in section.blocks %}
+        {% for block in section.blocks limit: 4 %}
             <div class="col-md-3 col-12">
-            <div class="card mb-3">
-                {% if block.settings.image %}
-                    <img src="{{ block.settings.image | img_url: 'master'}}" width="100%" height="auto" class="card-img-top" alt="placeholder" />
-                {% endif %}
-                <div class="card-img-overlay">
-                    <h5 class="card-title">{{block.settings.product_title}}</h5>
-                    <a class="btn btn-primary">{{block.settings.product_link}}</a>
+                <div class="card mb-3">
+                    {% if block.settings.image %}
+                        <img src="{{ block.settings.image | img_url: 'master' }}" width="100%" height="auto" class="card-img-top" alt="placeholder" />
+                    {% endif %}
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">{{ block.settings.product_title | default: 'Product Name' }}</h5>
+                        <a href="{{ block.settings.product_link }}" class="btn btn-primary">Shop Now</a>
+                    </div>
                 </div>
             </div>
-        </div>
         {% endfor %}
-        
     </div>
 </div>
 
 {% schema %}
 {
-"name": "Product Block",
-"settings": [],
-"presets": [{"name": "Custom Product Section"}],
-"blocks": [
-    {
-       "name": "Products",
-       "type": "column",
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         },
-         {
-            "type": "text",
-            "id": "product_title",
-            "label": "Product Title"
-          }, 
-          {
-            "type": "url",
-            "id": "product_link",
-            "label": "Link",
-            "info": "Enter the URL for the link"
-          }
-       ]
-     }
-]
+    "name": "Product Block",
+    "settings": [],
+    "presets": [{"name": "Custom Product Section"}],
+    "blocks": [
+        {
+            "name": "Products",
+            "type": "column",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "product_title",
+                    "label": "Product Title",
+                    "default": "Product Name"
+                },
+                {
+                    "type": "url",
+                    "id": "product_link",
+                    "label": "Link",
+                    "info": "Enter the URL for the link"
+                }
+            ]
+        }
+    ]
 }
 {% endschema %}
