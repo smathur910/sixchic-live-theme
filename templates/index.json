@@ -91,7 +91,7 @@
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "custom_product_blocks_Y3Qf6a": {
@@ -135,6 +135,9 @@
         "column_PpehnF",
         "column_MmW9FV",
         "column_cqhEjR"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
       }
