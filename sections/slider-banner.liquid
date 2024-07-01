@@ -30,8 +30,8 @@
                 <div class="carousel-caption">
                   <div class="has-banner-content">
                     <div class="heading-wt-content">
-                      <h5>{{ block.settings.slide_title }}</h5>
-                      <p>{{ block.settings.slide_subtext }}</p>
+                      <h5 class="banner-title">{{ block.settings.slide_title }}</h5>
+                      <p class="banner-desc">{{ block.settings.slide_subtext }}</p>
                     </div>
                     <a href="" class="banner-button">
                       <button class="btn btn-primary">Shop Now</button>
@@ -66,6 +66,32 @@
     </div>
   </div>
 </div>
+
+{% style %}
+  .banner-slider .carousel-caption {
+    display: flex;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-slider .has-banner-content {
+    background: #ffffff8c;
+    padding: 5rem;
+    width: 30%;
+  }
+
+  .banner-slider .banner-title {
+    font-size: 3rem !important;
+    color: #000;
+  }
+  .banner-slider .banner-desc {
+    color: #000;
+  }
+{% endstyle %}
 
 
 {% schema %}
