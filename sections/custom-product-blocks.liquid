@@ -13,8 +13,7 @@
             >
           {% endif %}
           <div class="card-img-overlay">
-            <h5 class="card-title">{{ block.settings.product_title | default: 'Product Name' }}</h5>
-            <a href="{{ block.settings.product_link }}" class="btn btn-primary">Shop Now</a>
+            <a href="{{ block.settings.product_link }}" class="btn btn-primary">{{ block.settings.product_title | default: 'Product Name' }}</a>
           </div>
         </div>
       </div>
