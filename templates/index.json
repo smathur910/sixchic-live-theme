@@ -9,31 +9,31 @@
 */
 {
   "sections": {
-    "slider_banner_fCjkNi": {
+    "slider_banner_Y6b3L8": {
       "type": "slider-banner",
       "blocks": {
-        "column_Xc6anY": {
-          "type": "column",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/New_Project_1.jpg",
-            "slide_title": "TItle 1",
-            "slide_subtext": "TItle 1",
-            "slide_link": ""
-          }
-        },
-        "column_qaEhTk": {
+        "column_greMLY": {
           "type": "column",
           "settings": {
             "slide_image": "shopify:\/\/shop_images\/New_Project_2.jpg",
-            "slide_title": "TItle 2",
-            "slide_subtext": "TItle 2",
+            "slide_title": "THE STYLE FOR TODAY",
+            "slide_subtext": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vel pellentesque consequat.",
+            "slide_link": ""
+          }
+        },
+        "column_fcCGzp": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/New_Project_1.jpg",
+            "slide_title": "",
+            "slide_subtext": "",
             "slide_link": ""
           }
         }
       },
       "block_order": [
-        "column_Xc6anY",
-        "column_qaEhTk"
+        "column_greMLY",
+        "column_fcCGzp"
       ],
       "settings": {
       }
@@ -331,7 +331,7 @@
     }
   },
   "order": [
-    "slider_banner_fCjkNi",
+    "slider_banner_Y6b3L8",
     "rich_text",
     "custom_product_blocks_Y3Qf6a",
     "custom_liquid_BfHdpf",
