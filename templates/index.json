@@ -141,23 +141,11 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
-        },
-        "buttons_ygVnRW": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_f3CmFN",
-        "text_4W39Rn",
-        "buttons_ygVnRW"
+        "text_4W39Rn"
       ],
       "custom_css": [
 
