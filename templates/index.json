@@ -47,36 +47,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "PRODUCTS BY CATEGORY",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "custom_product_blocks_Y3Qf6a": {
       "type": "custom-product-blocks",
       "blocks": {
@@ -173,27 +143,13 @@
         "show_text_below": true
       }
     },
-    "rich_text_wtdtE7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_f7yqRf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Top Categories",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_f7yqRf"
-      ],
+    "custom_liquid_KEJRyy": {
+      "type": "custom-liquid",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>Top Categories<\/h1>\n<\/div><\/div>",
+        "color_scheme": "",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -228,11 +184,10 @@
   "order": [
     "slider_banner_Y6b3L8",
     "custom_liquid_BYrM6c",
-    "rich_text",
     "custom_product_blocks_Y3Qf6a",
     "custom_liquid_BfHdpf",
     "image_banner_zwMpnL",
-    "rich_text_wtdtE7",
+    "custom_liquid_KEJRyy",
     "featured_collection"
   ]
 }
