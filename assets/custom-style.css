@@ -68,6 +68,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .col-12.main-title::after {
