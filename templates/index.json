@@ -41,7 +41,7 @@
     "custom_liquid_BYrM6c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"col-12 main-title\">\n<h1>PRODUCT BY CATEGORY<\/h1>\n<div class=\"line\"><\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>PRODUCT BY CATEGORY<\/h1>\n<div class=\"line\"><\/div>\n<\/div><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
