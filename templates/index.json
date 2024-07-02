@@ -38,6 +38,15 @@
       "settings": {
       }
     },
+    "custom_liquid_BYrM6c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"col-12 main-title\">\n<h1>PRODUCT BY CATEGORY<\/h1>\n<div class=\"line\"><\/div>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -218,6 +227,7 @@
   },
   "order": [
     "slider_banner_Y6b3L8",
+    "custom_liquid_BYrM6c",
     "rich_text",
     "custom_product_blocks_Y3Qf6a",
     "custom_liquid_BfHdpf",
