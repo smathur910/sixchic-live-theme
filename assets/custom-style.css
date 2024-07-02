@@ -39,3 +39,57 @@ p {
     text-align: center;
     margin-bottom: 1rem;
 }
+.card.card--standard.card--media {
+    border: none;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.full-unstyled-link {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.card__heading {
+    font-size: 1.8rem !important;
+    text-align: center;
+}
+.card-information {
+    text-align: center !important;
+    font-weight: 700;
+}
+
+.card-information  *{
+    font-size: 1.2rem !important;
+}
+
+/* .card.card--standard.card--media::before {
+    position: relative;
+    content: '';
+    border: 1px solid #d3a74e;
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    top: -8px;
+}
+
+.card.card--standard.card--media::after{
+    content: '';
+    border: 1px solid #d3a74e;
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.card.card--standard.card--media:hover:after,
+.card.card--standard.card--media:hover:before{
+    transform: scale(-1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+} */
