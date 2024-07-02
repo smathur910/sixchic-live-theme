@@ -164,15 +164,6 @@
         "show_text_below": true
       }
     },
-    "custom_liquid_QhDeEN": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "rich_text_wtdtE7": {
       "type": "rich-text",
       "blocks": {
@@ -231,7 +222,6 @@
     "custom_product_blocks_Y3Qf6a",
     "custom_liquid_BfHdpf",
     "image_banner_zwMpnL",
-    "custom_liquid_QhDeEN",
     "rich_text_wtdtE7",
     "featured_collection"
   ]
