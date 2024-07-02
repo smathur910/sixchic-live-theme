@@ -65,14 +65,19 @@ p {
 .col-12.main-title {
     position: relative;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.col-12.main-title::after{
+.col-12.main-title::after {
     content: '';
     position: absolute;
-    width: 50%;
-    height: 1rem;
+    width: 10%;
+    height: 3px;
     background: #000;
+    bottom: -15px;
+    border-radius: 100px;
 }
 
 /* .card.card--standard.card--media::before {
