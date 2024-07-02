@@ -51,7 +51,7 @@ p {
 }
 
 .card__heading {
-    font-size: 1.8rem !important;
+    font-size: 1.3rem !important;
     text-align: center;
 }
 .card-information {
@@ -61,6 +61,18 @@ p {
 
 .card-information  *{
     font-size: 1.2rem !important;
+}
+.col-12.main-title {
+    position: relative;
+    text-align: center;
+}
+
+.col-12.main-title::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    background: #000;
 }
 
 /* .card.card--standard.card--media::before {
