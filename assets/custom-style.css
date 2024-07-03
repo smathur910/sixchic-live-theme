@@ -160,3 +160,9 @@ nav.header__inline-menu {
 a.link.link--text.list-menu__item.list-menu__item--link {
     font-weight: 400;
 }
+
+@media only screen and (max-width:768px) {
+    nav.header__inline-menu {
+        display: none;
+    }
+}
