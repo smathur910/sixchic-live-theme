@@ -11,16 +11,10 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_footer_qKyr6M": {
+    "custom_footer_nnPYJh": {
       "type": "custom-footer",
       "blocks": {
-        "menu_zVmcyc": {
-          "type": "menu",
-          "settings": {
-            "links": "footer"
-          }
-        },
-        "menu_9JdRJC": {
+        "menu_ibDaPV": {
           "type": "menu",
           "settings": {
             "links": "quick-links"
@@ -28,8 +22,7 @@
         }
       },
       "block_order": [
-        "menu_zVmcyc",
-        "menu_9JdRJC"
+        "menu_ibDaPV"
       ],
       "settings": {
       }
@@ -82,7 +75,7 @@
     }
   },
   "order": [
-    "custom_footer_qKyr6M",
+    "custom_footer_nnPYJh",
     "footer"
   ]
 }
