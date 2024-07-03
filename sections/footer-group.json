@@ -11,8 +11,19 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_footer_LCnxY4": {
+    "custom_footer_qKyr6M": {
       "type": "custom-footer",
+      "blocks": {
+        "menu_zVmcyc": {
+          "type": "menu",
+          "settings": {
+            "links": "main-menu"
+          }
+        }
+      },
+      "block_order": [
+        "menu_zVmcyc"
+      ],
       "settings": {
       }
     },
@@ -64,7 +75,7 @@
     }
   },
   "order": [
-    "custom_footer_LCnxY4",
+    "custom_footer_qKyr6M",
     "footer"
   ]
 }
