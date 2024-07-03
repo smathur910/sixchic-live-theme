@@ -111,3 +111,6 @@ p {
     opacity: 1;
     -webkit-transform: scale(1);
 } */
+.footer__blocks-wrapper .footer-block.grid__item:nth-child(1){
+    
+}
