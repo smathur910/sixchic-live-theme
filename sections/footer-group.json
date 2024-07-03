@@ -27,11 +27,20 @@
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "text_iCGjHn": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png"
+          }
         }
       },
       "block_order": [
         "link_list_XNz9FW",
-        "link_list_6itxRB"
+        "link_list_6itxRB",
+        "text_iCGjHn"
       ],
       "settings": {
         "color_scheme": "",
