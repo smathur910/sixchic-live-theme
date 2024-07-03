@@ -14,6 +14,14 @@
     "custom_footer_nnPYJh": {
       "type": "custom-footer",
       "blocks": {
+        "text_iCGjHn": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png"
+          }
+        },
         "link_list_XNz9FW": {
           "type": "link_list",
           "settings": {
@@ -27,20 +35,12 @@
             "heading": "Quick links",
             "menu": "footer"
           }
-        },
-        "text_iCGjHn": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png"
-          }
         }
       },
       "block_order": [
+        "text_iCGjHn",
         "link_list_XNz9FW",
-        "link_list_6itxRB",
-        "text_iCGjHn"
+        "link_list_6itxRB"
       ],
       "settings": {
         "color_scheme": "",
