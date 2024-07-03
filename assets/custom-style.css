@@ -144,3 +144,12 @@ p {
 h2.footer-block__heading.inline-richtext {
     font-weight: 600;
 }
+
+header.header.header--middle-left.header--mobile-center.page-width.header--has-menu.header--has-social {
+    grid-template-columns: auto 1fr auto;
+}
+
+nav.header__inline-menu {
+    display: flex;
+    justify-content: center;
+}
