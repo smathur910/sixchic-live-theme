@@ -104,6 +104,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
+    "brand_description": "<p>lorem ipsum<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png",
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",

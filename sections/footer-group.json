@@ -14,13 +14,10 @@
     "custom_footer_nnPYJh": {
       "type": "custom-footer",
       "blocks": {
-        "text_iCGjHn": {
-          "type": "text",
+        "brand_information_ctb3dB": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png",
-            "image_width": 160
+            "show_social": true
           }
         },
         "link_list_XNz9FW": {
@@ -46,7 +43,7 @@
         }
       },
       "block_order": [
-        "text_iCGjHn",
+        "brand_information_ctb3dB",
         "link_list_XNz9FW",
         "link_list_6itxRB",
         "link_list_d6w9jx"
