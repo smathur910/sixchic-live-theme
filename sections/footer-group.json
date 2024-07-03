@@ -11,6 +11,11 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_footer_LCnxY4": {
+      "type": "custom-footer",
+      "settings": {
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -41,6 +46,7 @@
         "footer-0",
         "footer-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
@@ -58,6 +64,7 @@
     }
   },
   "order": [
+    "custom_footer_LCnxY4",
     "footer"
   ]
 }
