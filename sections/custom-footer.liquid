@@ -8,19 +8,17 @@
     </div>
 
     <div class="col">
-        {% for block in section.blocks %}
-            <p>{{ block.type }}</p>
-            {% if block.type == 'menu' %}
-              <nav>
-                <ul>
-                  {% for link in block.settings.links %}
-                    {{link}}
-                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </nav>
-            {% endif %}
-          {% endfor %}
+      {% for block in section.blocks %}
+        {% if block.type == 'menu' %}
+          <nav>
+            <ul>
+              {% for link in block.settings.links %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+        {% endif %}
+      {% endfor %}
     </div>
   </footer>
 </div>
