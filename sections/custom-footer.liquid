@@ -84,7 +84,8 @@
                     {% render block %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
-                        {{ block.settings.image }}
+                        <img src="{{ block.settings.image | img_url: 'master' }}" width="300px" height="auto" class="border-0 mx-auto d-block" alt="...">
+                        
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
@@ -301,7 +302,17 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        }
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 50,
+          "max": 550,
+          "step": 5,
+          "unit": "px",
+          "label": "Image width",
+          "default": 100
+        },
       ]
     },
     {
