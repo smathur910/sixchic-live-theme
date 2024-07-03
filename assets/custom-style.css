@@ -138,9 +138,8 @@ p {
     justify-content: center;
 }
 .list-social__item .icon {
-    height: 3rem;
-    width: 3rem;
-    font-size: 4rem;
+    height: 3rem !important;
+    width: 3rem !important;
 }
 h2.footer-block__heading.inline-richtext {
     font-weight: 600;
