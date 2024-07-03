@@ -36,12 +36,20 @@
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "link_list_d6w9jx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "text_iCGjHn",
         "link_list_XNz9FW",
-        "link_list_6itxRB"
+        "link_list_6itxRB",
+        "link_list_d6w9jx"
       ],
       "settings": {
         "color_scheme": "",
