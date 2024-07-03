@@ -76,6 +76,7 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
+                    {% section 'custom-liquid' %}
                   <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
 
