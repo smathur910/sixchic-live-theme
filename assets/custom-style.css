@@ -153,3 +153,6 @@ nav.header__inline-menu {
     display: flex;
     justify-content: center;
 }
+.list-menu__item {
+    font-weight: 600;
+}
