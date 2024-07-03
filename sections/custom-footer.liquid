@@ -76,7 +76,6 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                    {% section 'custom-liquid' %}
                   <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
 
@@ -85,6 +84,7 @@
                     {% render block %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
+                        {{ block.settings.image }}
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
@@ -296,6 +296,11 @@
           "id": "subtext",
           "default": "t:sections.footer.blocks.text.settings.subtext.default",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     },
