@@ -19,7 +19,8 @@
           "settings": {
             "heading": "Heading",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png"
+            "image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png",
+            "image_width": 160
           }
         },
         "link_list_XNz9FW": {
