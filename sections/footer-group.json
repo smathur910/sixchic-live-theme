@@ -19,10 +19,17 @@
           "settings": {
             "links": "footer"
           }
+        },
+        "menu_9JdRJC": {
+          "type": "menu",
+          "settings": {
+            "links": "quick-links"
+          }
         }
       },
       "block_order": [
-        "menu_zVmcyc"
+        "menu_zVmcyc",
+        "menu_9JdRJC"
       ],
       "settings": {
       }
