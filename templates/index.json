@@ -105,6 +105,15 @@
         "padding_bottom": 40
       }
     },
+    "custom_liquid_V793hY": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>NEW IN<\/h1>\n<\/div><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_zwMpnL": {
       "type": "image-banner",
       "custom_css": [
@@ -167,6 +176,7 @@
     "custom_liquid_BYrM6c",
     "custom_product_blocks_Y3Qf6a",
     "custom_liquid_BfHdpf",
+    "custom_liquid_V793hY",
     "image_banner_zwMpnL",
     "custom_liquid_KEJRyy",
     "featured_collection"
