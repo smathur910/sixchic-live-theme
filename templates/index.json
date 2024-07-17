@@ -142,32 +142,50 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "custom_product_blocks_rLiFtE": {
+      "type": "custom-product-blocks",
+      "blocks": {
+        "column_B7DVxA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_e698b326-2082-4ff4-85f3-e5d487ed3853.jpg",
+            "product_title": "SHIRTS\/BLOUSES",
+            "product_link": ""
+          }
+        },
+        "column_BVidtX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_50a4854d-5a7a-4483-a2f1-1b7908b6f79c.jpg",
+            "product_title": "PANTS\/TROUSERS",
+            "product_link": ""
+          }
+        },
+        "column_gLNJ6n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_e98eb85d-0663-45db-9874-15ed79eb3e05.jpg",
+            "product_title": "DRESSES\/JUMPSUITS",
+            "product_link": ""
+          }
+        },
+        "column_DNXiNB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_7406896d-68e4-4d6e-8949-d5fa0d8efede.jpg",
+            "product_title": "CO-ORDS",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_B7DVxA",
+        "column_BVidtX",
+        "column_gLNJ6n",
+        "column_DNXiNB"
+      ],
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "my_id": "Enter text here"
       }
     }
   },
@@ -179,6 +197,6 @@
     "custom_liquid_V793hY",
     "image_banner_zwMpnL",
     "custom_liquid_KEJRyy",
-    "featured_collection"
+    "custom_product_blocks_rLiFtE"
   ]
 }
