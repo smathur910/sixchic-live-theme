@@ -33,8 +33,7 @@ p {
     justify-content: flex-end;
 }
 
-div#shopify-section-template--17314747809961__custom_product_blocks_Y3Qf6a
-.custom-product-block .btn.btn-primary {
+#homepage-product .btn.btn-primary {
     font-size: 3.5rem;
     text-decoration: none;
     color: #fff;
