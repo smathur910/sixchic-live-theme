@@ -184,6 +184,23 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17212413687d581268": {
+      "type": "apps",
+      "blocks": {
+        "powr_photo_gallery_app_block_GFFMcj": {
+          "type": "shopify:\/\/apps\/powr-photo-gallery\/blocks\/app-block\/f518ea8b-84ca-4e35-ad08-915944558a92",
+          "settings": {
+            "app_id": "da4c9dd5_1721241325"
+          }
+        }
+      },
+      "block_order": [
+        "powr_photo_gallery_app_block_GFFMcj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -194,6 +211,7 @@
     "image_banner_zwMpnL",
     "custom_liquid_KEJRyy",
     "custom_product_blocks_rLiFtE",
-    "17212408387f25e7db"
+    "17212408387f25e7db",
+    "17212413687d581268"
   ]
 }
