@@ -33,6 +33,17 @@ p {
     justify-content: flex-end;
 }
 
+div#shopify-section-template--17422956396713__custom_product_blocks_Y3Qf6a
+.custom-product-block .btn.btn-primary {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+}
+
 .custom-product-block h5.card-title {
     font-size: 2.5rem;
     text-transform: uppercase;
