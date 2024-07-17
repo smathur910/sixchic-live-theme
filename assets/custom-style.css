@@ -33,7 +33,7 @@ p {
     justify-content: flex-end;
 }
 
-#homepage-product .custom-product-block .btn.btn-primary {
+#homepage-product .btn.btn-primary {
     font-size: 3.5rem;
     text-decoration: none;
     color: #fff;
