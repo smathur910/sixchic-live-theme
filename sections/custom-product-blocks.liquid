@@ -24,7 +24,14 @@
 {% schema %}
 {
   "name": "Product Block",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "my_id",
+      "label": "My setting label",
+      "default": "Enter text here"
+    }
+  ],
   "presets": [{ "name": "Custom Product Section" }],
   "blocks": [
     {
