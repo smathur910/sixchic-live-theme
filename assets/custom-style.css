@@ -166,10 +166,17 @@ nav.header__inline-menu {
 }
 .list-menu__item {
     font-weight: 600;
+    font-size: 1.7rem;
 }
 
 a.link.link--text.list-menu__item.list-menu__item--link {
     font-weight: 400;
+}
+.price.price--large.price--show-badge {
+    font-size: 2.5rem;
+}
+.product__title h1 {
+    font-weight: 700;
 }
 header.header.header--middle-left.header--mobile-center.page-width.header--has-menu.header--has-social {
     padding-right: 0!important;
