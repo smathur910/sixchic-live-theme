@@ -27,6 +27,7 @@
                   width="100%"
                   height="auto"
                   alt="...">
+                  {% if block.settings.slide_title %}
                 <div class="carousel-caption">
                   <div class="has-banner-content">
                     <div class="heading-wt-content">
@@ -38,6 +39,7 @@
                     </a> {% endcomment %}
                   </div>
                 </div>
+              {% endif %}
               </div>
             {% endfor %}
 
