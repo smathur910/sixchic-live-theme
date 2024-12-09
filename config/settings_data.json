@@ -1,21 +1,21 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png",
+    "logo": "shopify://shop_images/SIXCHICLOGOBLACK_1.png",
     "logo_width": 120,
     "type_header_font": "lato_n4",
     "heading_scale": 100,
     "type_body_font": "lato_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -105,8 +105,8 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "EMPOWER BEAUTY,EMPOWER SIXCHIC",
-    "brand_description": "<p><strong>Address: <\/strong>3525 New Mexico 434, New York<\/p><p><strong>Phone: <\/strong>+91 123 12345<\/p><p><strong>Email: <\/strong>info@sixchic.com<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/SIXCHICLOGOBLACK_1.png",
+    "brand_description": "<p><strong>Address: </strong>3525 New Mexico 434, New York</p><p><strong>Phone: </strong>+91 123 12345</p><p><strong>Email: </strong>info@sixchic.com</p>",
+    "brand_image": "shopify://shop_images/SIXCHICLOGOBLACK_1.png",
     "brand_image_width": 150,
     "social_facebook_link": "facebook.com",
     "social_instagram_link": "facebook.com",
@@ -139,9 +139,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
