@@ -32,6 +32,7 @@
         },
         "column_JYBdRp": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "slide_image": "shopify://shop_images/sample_Banner_1.jpg",
             "slide_title": "",
@@ -41,6 +42,7 @@
         },
         "column_VQXBT9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "slide_image": "shopify://shop_images/sample_Banner_2.jpg",
             "slide_title": "",
