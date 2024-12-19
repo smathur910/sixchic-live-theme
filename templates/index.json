@@ -29,11 +29,21 @@
             "slide_subtext": "",
             "slide_link": ""
           }
+        },
+        "column_JYBdRp": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify://shop_images/sample_Banner_1.jpg",
+            "slide_title": "",
+            "slide_subtext": "",
+            "slide_link": ""
+          }
         }
       },
       "block_order": [
         "column_greMLY",
-        "column_fcCGzp"
+        "column_fcCGzp",
+        "column_JYBdRp"
       ],
       "settings": {}
     },
