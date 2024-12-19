@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slider_banner_Y6b3L8": {
@@ -15,7 +15,7 @@
         "column_greMLY": {
           "type": "column",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/New_Project_2.jpg",
+            "slide_image": "shopify://shop_images/New_Project_2.jpg",
             "slide_title": "THE STYLE FOR TODAY",
             "slide_subtext": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vel pellentesque consequat.",
             "slide_link": ""
@@ -24,7 +24,7 @@
         "column_fcCGzp": {
           "type": "column",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/New_Project_1.jpg",
+            "slide_image": "shopify://shop_images/New_Project_1.jpg",
             "slide_title": "",
             "slide_subtext": "",
             "slide_link": ""
@@ -35,13 +35,12 @@
         "column_greMLY",
         "column_fcCGzp"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "custom_liquid_BYrM6c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>PRODUCT BY CATEGORY<\/h1>\n<\/div><\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>PRODUCT BY CATEGORY</h1>\n</div></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -53,7 +52,7 @@
         "column_N7K3V9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_1dd39ecd-d52e-4b29-853c-fa0aa769f057-692091.jpg",
+            "image": "shopify://shop_images/1_1dd39ecd-d52e-4b29-853c-fa0aa769f057-692091.jpg",
             "product_title": "workwear",
             "product_link": ""
           }
@@ -61,7 +60,7 @@
         "column_PpehnF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_5d2dc688-798c-470a-9b0a-c1f3eaca3767-548159.jpg",
+            "image": "shopify://shop_images/4_5d2dc688-798c-470a-9b0a-c1f3eaca3767-548159.jpg",
             "product_title": "Resortwear",
             "product_link": ""
           }
@@ -69,7 +68,7 @@
         "column_MmW9FV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_b9fb0d30-e0c9-494f-805e-f104cf27bf4c-257447.jpg",
+            "image": "shopify://shop_images/CLUBBING.jpg",
             "product_title": "clubbing",
             "product_link": ""
           }
@@ -77,7 +76,7 @@
         "column_cqhEjR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_7b499edf-9f37-41f0-88dd-90fc666d6a1f-599135.jpg",
+            "image": "shopify://shop_images/5_7b499edf-9f37-41f0-88dd-90fc666d6a1f-599135.jpg",
             "product_title": "on-trend",
             "product_link": ""
           }
@@ -89,9 +88,7 @@
         "column_MmW9FV",
         "column_cqhEjR"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "my_id": "homepage-product"
       }
@@ -99,7 +96,7 @@
     "custom_liquid_V793hY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>NEW IN<\/h1>\n<\/div><\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>NEW IN</h1>\n</div></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -107,11 +104,9 @@
     },
     "image_banner_zwMpnL": {
       "type": "image-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/S1.webp",
+        "image": "shopify://shop_images/S1.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -127,7 +122,7 @@
     "custom_liquid_KEJRyy": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>Top Categories<\/h1>\n<\/div><\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"col-12 main-title\">\n<h1>Top Categories</h1>\n</div></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -139,31 +134,31 @@
         "column_B7DVxA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_e698b326-2082-4ff4-85f3-e5d487ed3853.jpg",
-            "product_title": "SHIRTS\/BLOUSES",
+            "image": "shopify://shop_images/1_e698b326-2082-4ff4-85f3-e5d487ed3853.jpg",
+            "product_title": "SHIRTS/BLOUSES",
             "product_link": ""
           }
         },
         "column_BVidtX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_50a4854d-5a7a-4483-a2f1-1b7908b6f79c.jpg",
-            "product_title": "PANTS\/TROUSERS",
+            "image": "shopify://shop_images/2_50a4854d-5a7a-4483-a2f1-1b7908b6f79c.jpg",
+            "product_title": "PANTS/TROUSERS",
             "product_link": ""
           }
         },
         "column_gLNJ6n": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9_e98eb85d-0663-45db-9874-15ed79eb3e05.jpg",
-            "product_title": "DRESSES\/JUMPSUITS",
+            "image": "shopify://shop_images/9_e98eb85d-0663-45db-9874-15ed79eb3e05.jpg",
+            "product_title": "DRESSES/JUMPSUITS",
             "product_link": ""
           }
         },
         "column_DNXiNB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_7406896d-68e4-4d6e-8949-d5fa0d8efede.jpg",
+            "image": "shopify://shop_images/8_7406896d-68e4-4d6e-8949-d5fa0d8efede.jpg",
             "product_title": "CO-ORDS",
             "product_link": ""
           }
@@ -187,17 +182,6 @@
     },
     "17212413687d581268": {
       "type": "apps",
-      "blocks": {
-        "powr_photo_gallery_app_block_GFFMcj": {
-          "type": "shopify:\/\/apps\/powr-photo-gallery\/blocks\/app-block\/f518ea8b-84ca-4e35-ad08-915944558a92",
-          "settings": {
-            "app_id": "da4c9dd5_1721241325"
-          }
-        }
-      },
-      "block_order": [
-        "powr_photo_gallery_app_block_GFFMcj"
-      ],
       "settings": {
         "include_margins": true
       }
