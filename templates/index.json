@@ -38,12 +38,22 @@
             "slide_subtext": "",
             "slide_link": ""
           }
+        },
+        "column_VQXBT9": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify://shop_images/sample_Banner_2.jpg",
+            "slide_title": "",
+            "slide_subtext": "",
+            "slide_link": ""
+          }
         }
       },
       "block_order": [
         "column_greMLY",
         "column_fcCGzp",
-        "column_JYBdRp"
+        "column_JYBdRp",
+        "column_VQXBT9"
       ],
       "settings": {}
     },
