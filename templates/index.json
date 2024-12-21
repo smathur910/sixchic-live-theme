@@ -23,6 +23,7 @@
         },
         "column_fcCGzp": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "slide_image": "shopify://shop_images/NEWIN.jpg",
             "slide_title": "",
@@ -128,7 +129,7 @@
       "type": "image-banner",
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/S1.webp",
+        "image": "shopify://shop_images/NEWIN_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
