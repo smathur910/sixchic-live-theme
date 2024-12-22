@@ -81,7 +81,9 @@ p {
     align-items: center;
     text-transform: uppercase;
 }
-
+.col-12.main-title h1 {
+    font-weight: bold;
+}
 .col-12.main-title::after {
     content: '';
     position: absolute;
