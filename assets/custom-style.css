@@ -92,8 +92,9 @@ p {
     border-radius: 100px;
 }
 
-.header__menu-item span{
-    color: red;
+.header__menu-item span {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
 }
 
 /* .card.card--standard.card--media::before {
