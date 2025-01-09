@@ -92,6 +92,10 @@ p {
     border-radius: 100px;
 }
 
+.header__menu-item span{
+    color: red;
+}
+
 /* .card.card--standard.card--media::before {
     position: relative;
     content: '';
