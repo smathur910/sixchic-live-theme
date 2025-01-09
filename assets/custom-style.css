@@ -97,6 +97,10 @@ p {
     letter-spacing: 0.2rem;
 }
 
+.product__description.rte.quick-add-hidden {
+    font-size: 1.7rem;
+}
+
 /* .card.card--standard.card--media::before {
     position: relative;
     content: '';
