@@ -83,7 +83,8 @@ p {
     text-transform: uppercase;
 }
 .col-12.main-title h1 {
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 3.5rem;
 }
 .col-12.main-title::after {
     content: '';
