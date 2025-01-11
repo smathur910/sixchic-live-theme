@@ -159,7 +159,7 @@
           "settings": {
             "image": "shopify://shop_images/SHIRTSBLOUSES.jpg",
             "product_title": "SHIRTS/BLOUSES",
-            "product_link": ""
+            "product_link": "shopify://collections/shirts-blouses"
           }
         },
         "column_BVidtX": {
@@ -167,7 +167,7 @@
           "settings": {
             "image": "shopify://shop_images/PANTSTROUSERS.jpg",
             "product_title": "PANTS/TROUSERS",
-            "product_link": ""
+            "product_link": "shopify://collections/pants-trousers"
           }
         },
         "column_gLNJ6n": {
@@ -175,7 +175,7 @@
           "settings": {
             "image": "shopify://shop_images/DRESSESJUMPSUITS.jpg",
             "product_title": "DRESSES/JUMPSUITS",
-            "product_link": ""
+            "product_link": "shopify://collections/dresses-jumpsuits"
           }
         },
         "column_DNXiNB": {
@@ -183,7 +183,7 @@
           "settings": {
             "image": "shopify://shop_images/CO-ORDS.jpg",
             "product_title": "CO-ORDS",
-            "product_link": ""
+            "product_link": "shopify://collections/co-ords"
           }
         }
       },
