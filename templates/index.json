@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify://shop_images/WORKWEAR.jpg",
             "product_title": "workwear",
-            "product_link": ""
+            "product_link": "shopify://collections/workwear"
           }
         },
         "column_PpehnF": {
