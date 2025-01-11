@@ -85,7 +85,7 @@
           "settings": {
             "image": "shopify://shop_images/RESORTWEAR.jpg",
             "product_title": "Resortwear",
-            "product_link": ""
+            "product_link": "shopify://collections/resortwear"
           }
         },
         "column_MmW9FV": {
@@ -93,7 +93,7 @@
           "settings": {
             "image": "shopify://shop_images/CLUBBING.jpg",
             "product_title": "clubbing",
-            "product_link": ""
+            "product_link": "shopify://collections/clubbing"
           }
         },
         "column_cqhEjR": {
@@ -101,7 +101,7 @@
           "settings": {
             "image": "shopify://shop_images/ON-TREND.jpg",
             "product_title": "on-trend",
-            "product_link": ""
+            "product_link": "shopify://collections/on-trend"
           }
         }
       },
