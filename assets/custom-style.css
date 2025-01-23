@@ -190,12 +190,14 @@ a.link.link--text.list-menu__item.list-menu__item--link {
 header.header.header--middle-left.header--mobile-center.page-width.header--has-menu.header--has-social {
     padding-right: 0!important;
     padding-left: 0!important;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
     width: 100%;
     max-width: -webkit-fill-available;
 }
-
+.list-menu--inline {
+    gap: 4rem;
+}
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
         display: none;
