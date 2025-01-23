@@ -304,6 +304,19 @@
           </div>
         {%- endif -%}
       </a>
+      {% if customer %}
+  <!-- Profile Dropdown for Logged-in Users -->
+  <div class="header-profile">
+    <a href="/account" class="profile-link">Profile</a>
+    <a href="/account/logout" class="logout-link">Logout</a>
+  </div>
+{% else %}
+  <!-- Login Button for Guests -->
+  <div class="header-login">
+    <a href="/account/login" class="login-link">Login</a>
+  </div>
+{% endif %}
+
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
