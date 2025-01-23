@@ -206,6 +206,7 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     font-size: 1.5rem;
     margin-top: 2rem;
     line-height: 2.5rem;
+  text-transform: uppercase;
 }
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
