@@ -156,6 +156,7 @@ p {
 }
 .footer__content-bottom-wrapper.page-width {
     justify-content: center;
+  display:none;
 }
 .list-social__item .icon {
     height: 3rem !important;
