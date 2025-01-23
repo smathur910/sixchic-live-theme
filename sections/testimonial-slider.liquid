@@ -63,43 +63,18 @@
   max-height: 100%;
 }
 @media screen and (min-width: 576px) {
-#testimonialExampleControls   .carousel-inner {
+
+#uniqueCarousel .carousel-card {
     display: flex;
-  }
- #testimonialExampleControls  .carousel-item {
-    display: block;
-    margin-right: 0;
-    flex: 0 0 calc(100% / 3);
-  }
- #testimonialExampleControls  .img-wrapper {
-    height: 21vw;
-  }
-}
-#testimonialExampleControls .carousel-inner {
-  padding: 1em;
-}
-#testimonialExampleControls .card {
-  margin: 0 0.5em;
-  border-radius: 0;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-  font-size: 0.9em;
+    gap: 2rem;
 }
 
-#testimonialExampleControls .carousel-control-prev,
-#testimonialExampleControls .carousel-control-next {
-  width: 6vh;
-  height: 6vh;
-  background-color: #e1e1e1;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.5;
+#uniqueCarousel .review-imge {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 1.2rem;
 }
-#testimonialExampleControls .carousel-control-prev:hover,
-#testimonialExampleControls .carousel-control-next:hover {
-  opacity: 0.8;
-}
-
 {% endstyle %}
 
 
