@@ -118,7 +118,8 @@
                 {%- endif -%}
                 {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
                   <div class="product__tax caption rte">
-                    {%- if cart.duties_included and cart.taxes_included -%}
+                    inclusive of all taxes*
+                  {% comment %}  {%- if cart.duties_included and cart.taxes_included -%}
                       {{ 'products.product.duties_and_taxes_included' | t }}
                     {%- elsif cart.taxes_included -%}
                       {{ 'products.product.taxes_included' | t }}
@@ -127,7 +128,7 @@
                     {%- endif -%}
                     {%- if shop.shipping_policy.body != blank -%}
                       {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                    {%- endif -%}
+                    {%- endif -%} {% endcomment %} 
                   </div>
                 {%- endif -%}
                 <div {{ block.shopify_attributes }}>
