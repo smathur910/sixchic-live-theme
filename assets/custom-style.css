@@ -249,7 +249,6 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     flex-wrap: nowrap;
     justify-content: center;
 }
-
 .pagination__list>li:not(:last-child) {
     margin-right: 1rem;
     border: 1px solid #000;
