@@ -197,6 +197,10 @@
         "my_id": "homepage-product"
       }
     },
+    "testimonial_slider_pACr6z": {
+      "type": "testimonial-slider",
+      "settings": {}
+    },
     "17212408387f25e7db": {
       "type": "apps",
       "blocks": {
@@ -230,6 +234,7 @@
     "image_banner_zwMpnL",
     "custom_liquid_KEJRyy",
     "custom_product_blocks_rLiFtE",
+    "testimonial_slider_pACr6z",
     "17212408387f25e7db",
     "17212413687d581268"
   ]
