@@ -1,4 +1,3 @@
-console.log('hii')
 const multipleItemCarousel = document.querySelector("#testimonialExampleControls");
 
 if (window.matchMedia("(min-width:576px)").matches) {
