@@ -246,7 +246,7 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
 }
 .pagination__list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important; 
     justify-content: center;
 }
 .pagination__list>li:not(:last-child) {
