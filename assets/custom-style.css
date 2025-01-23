@@ -222,6 +222,25 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
 .header__icons {
     align-items: center;
 }
+.header-wishlist {
+  margin-left: 15px;
+}
+
+.header-wishlist .wishlist-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.header-wishlist .wishlist-link:hover {
+  color: #007ace; /* Change to your brand color */
+}
+
+.header-wishlist .icon {
+  margin-right: 5px;
+}
 
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
