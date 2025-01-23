@@ -36,3 +36,42 @@ document.addEventListener("DOMContentLoaded", function () {
     multipleItemCarousel.classList.add("slide");
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const wishlistButtons = document.querySelectorAll(".add-to-wishlist");
+  const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+
+  // Add to Wishlist
+  wishlistButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const productId = button.dataset.productId;
+      const productTitle = button.dataset.productTitle;
+
+      if (!wishlist.some((item) => item.id === productId)) {
+        wishlist.push({ id: productId, title: productTitle });
+        localStorage.setItem("wishlist", JSON.stringify(wishlist));
+        alert("Added to wishlist!");
+      } else {
+        alert("Already in wishlist!");
+      }
+    });
+  });
+
+  // Populate Wishlist Page
+  const wishlistPage = document.querySelector(".wishlist-page");
+  if (wishlistPage) {
+    if (wishlist.length === 0) {
+      wishlistPage.innerHTML = "<p>Your wishlist is empty.</p>";
+    } else {
+      wishlistPage.innerHTML = wishlist
+        .map(
+          (item) =>
+            `<div>
+               <p>${item.title}</p>
+             </div>`
+        )
+        .join("");
+    }
+  }
+});
