@@ -1,27 +1,38 @@
-const multipleItemCarousel = document.querySelector("#testimonialExampleControls");
+document.addEventListener("DOMContentLoaded", function () {
+  const multipleItemCarousel = document.querySelector("#testimonialExampleControls");
 
-if (window.matchMedia("(min-width:576px)").matches) {
-  const carousel = new bootstrap.Carousel(multipleItemCarousel, {
-    interval: false
-  });
+  if (window.matchMedia("(min-width:576px)").matches) {
+    const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+      interval: false,
+    });
 
-  var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-  var cardWidth = $(".carousel-item").width();
+    const carouselInner = document.querySelector(".carousel-inner");
+    const carouselItems = document.querySelectorAll(".carousel-item");
+    const carouselWidth = carouselInner.scrollWidth;
+    const cardWidth = carouselItems[0].offsetWidth;
 
-  var scrollPosition = 0;
+    let scrollPosition = 0;
 
-  $(".carousel-control-next").on("click", function () {
-    if (scrollPosition < carouselWidth - cardWidth * 4) {
-      scrollPosition = scrollPosition + cardWidth;
-      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
-    }
-  });
-  $(".carousel-control-prev").on("click", function () {
-    if (scrollPosition > 0) {
-      scrollPosition = scrollPosition - cardWidth;
-      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
-    }
-  });
-} else {
-  $(multipleItemCarousel).addClass("slide");
-}
+    document.querySelector(".carousel-control-next").addEventListener("click", function () {
+      if (scrollPosition < carouselWidth - cardWidth * 4) {
+        scrollPosition += cardWidth;
+        carouselInner.scrollTo({
+          left: scrollPosition,
+          behavior: "smooth",
+        });
+      }
+    });
+
+    document.querySelector(".carousel-control-prev").addEventListener("click", function () {
+      if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        carouselInner.scrollTo({
+          left: scrollPosition,
+          behavior: "smooth",
+        });
+      }
+    });
+  } else {
+    multipleItemCarousel.classList.add("slide");
+  }
+});
