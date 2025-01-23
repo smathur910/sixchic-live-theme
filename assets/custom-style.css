@@ -216,10 +216,11 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     text-decoration: none;
     font-size: 16px;
 }
-
+.header-login {
+    margin-left: 2rem;
+}
 .header__icons {
     align-items: center;
-    gap: 2.5rem;
 }
 
 @media only screen and (max-width:768px) {
