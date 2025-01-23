@@ -244,6 +244,11 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
 .header-wishlist .icon {
   margin-right: 5px;
 }
+.pagination__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
