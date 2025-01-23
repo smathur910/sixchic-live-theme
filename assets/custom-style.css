@@ -250,6 +250,12 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     justify-content: center;
 }
 
+.pagination__list>li:not(:last-child) {
+    margin-right: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
         display: none;
