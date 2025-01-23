@@ -25,3 +25,4 @@ if (window.matchMedia("(min-width:576px)").matches) {
 } else {
   $(multipleItemCarousel).addClass("slide");
 }
+console.log('hii')
