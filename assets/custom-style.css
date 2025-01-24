@@ -287,6 +287,10 @@ a.pagination__item.pagination__item--current.light {
   margin: 0px;
   text-decoration: none;
 }
+
+.announcement-bar, .announcement-bar__announcement {
+    text-transform: uppercase;
+}
 @media only screen and (min-width: 768px) and (max-width: 1240px) {
   #homepage-product .btn.btn-primary {
     font-size: 2rem;
