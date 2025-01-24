@@ -318,4 +318,7 @@ a.pagination__item.pagination__item--current.light {
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(5) {
     width: 100%;
   }
+  #homepage-product .btn.btn-primary {
+    font-size: 2rem;
+}
 }
