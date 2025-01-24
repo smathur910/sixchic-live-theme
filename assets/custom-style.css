@@ -221,9 +221,7 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
 .header__icons {
     align-items: center;
 }
-.header-wishlist {
-  margin-left: 15px;
-}
+
 
 .header-wishlist .wishlist-link {
   display: flex;
