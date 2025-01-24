@@ -288,10 +288,9 @@ a.pagination__item.pagination__item--current.light {
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) and (max-width: 1240px) {
-
-#homepage-product .btn.btn-primary {
+  #homepage-product .btn.btn-primary {
     font-size: 2rem;
-}
+  }
 }
 @media only screen and (max-width: 768px) {
   nav.header__inline-menu {
@@ -313,5 +312,10 @@ a.pagination__item.pagination__item--current.light {
   #uniqueCarousel .review-imge {
     width: 115px !important;
     height: 115px !important;
+  }
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(4),
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(5) {
+    width: 100%;
   }
 }
