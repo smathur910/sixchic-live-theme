@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     multipleItemCarousel.classList.add("slide");
   }
 });
-console.log('here')
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const wishlistButtons = document.querySelectorAll(".add-to-wishlist");
@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Populate Wishlist Page
  document.addEventListener("DOMContentLoaded", () => {
   const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+   console.log(wishlist)
   const wishlistContainer = document.getElementById("wishlist-items");
 
   // if (!wishlistContainer) return;
