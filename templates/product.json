@@ -52,6 +52,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_PiMNn9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -71,6 +77,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_PiMNn9",
         "description",
         "share"
       ],
