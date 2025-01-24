@@ -294,8 +294,8 @@ a.pagination__item.pagination__item--current.light {
   }
 
   .banner-slider .has-banner-content {
-    background: transparent;
-    width: 100%;
+    background: transparent !important;
+    width: 100% !important;
   }
 
   .banner-slider .banner-title {
