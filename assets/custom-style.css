@@ -255,6 +255,9 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     border: 1px solid #000;
     border-radius: 5px;
 }
+.pagination {
+    justify-content: center;
+}
 
 a.pagination__item.pagination__item--current.light::after {
     display: none !important;
