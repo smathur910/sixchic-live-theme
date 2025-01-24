@@ -285,19 +285,6 @@ a.pagination__item.pagination__item--current.light {
   }
 
 
-                    .button-floating{
-                      position: fixed;
-                      transform: translateY(-50%);
-                      z-index: 1;
-                      padding: 8px;
-                      display: inline-flex;
-                      align-items: center;
-                      text-decoration: none;
-                      color: #000;
-                      background-color: #efefef;
-                      border-radius: 6px 0 0 6px;
-                      transition: all .5s ease;
-                    }
 
               .button-floating:hover{
                 background-color: #000;
