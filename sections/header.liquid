@@ -286,11 +286,18 @@
         {%- endcase -%}
       {%- endfor -%}
 <div class="header-wishlist">
-  <a href="/pages/wishlist" class="wishlist-link">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
-      <path d="M20.8 4.6c-1.8-1.7-4.6-1.7-6.4 0l-.4.4-.4-.4c-1.8-1.7-4.6-1.7-6.4 0-2 2-2 5.2 0 7.2l6.8 6.8 6.8-6.8c2-2 2-5.2 0-7.2z"></path>
-    </svg>
-  </a>
+ <a href="/pages/wishlist" class="button-floating">
+         <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+           <rect x="0" fill="none" width="24" height="24"/>
+ 
+           <g>
+ 
+           <path d="M16.5 4.5c2.206 0 4 1.794 4 4 0 4.67-5.543 8.94-8.5 11.023C9.043 17.44 3.5 13.17 3.5 8.5c0-2.206 1.794-4 4-4 1.298 0 2.522.638 3.273 1.706L12 7.953l1.227-1.746c.75-1.07 1.975-1.707 3.273-1.707m0-1.5c-1.862 0-3.505.928-4.5 2.344C11.005 3.928 9.362 3 7.5 3 4.462 3 2 5.462 2 8.5c0 5.72 6.5 10.438 10 12.85 3.5-2.412 10-7.13 10-12.85C22 5.462 19.538 3 16.5 3z"/>
+ 
+           </g>
+         </svg>
+         <p class="wishlist_text">Your Wishlist</p>
+       </a>
 </div>
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
