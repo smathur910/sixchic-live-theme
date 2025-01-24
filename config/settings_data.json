@@ -9,6 +9,8 @@
  */
 {
   "current": {
+    "enable-wishlist": true,
+    "wishlist-floating-button-position": true,
     "logo": "shopify://shop_images/SIXCHICFINALLOGO_1.png",
     "logo_width": 230,
     "type_header_font": "lato_n4",
