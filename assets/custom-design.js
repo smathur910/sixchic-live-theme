@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const wishlistContainer = document.getElementById("wishlist-items");
 
   // if (!wishlistContainer) return;
-console.log('here',wishlist)
+console.log('here',wishlistContainer)
   if (wishlist.length === 0) {
     
     wishlistContainer.innerHTML = "<p>Your wishlist is empty.</p>";
