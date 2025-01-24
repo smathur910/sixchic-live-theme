@@ -262,6 +262,7 @@ a.pagination__item.pagination__item--current.light {
     background: #000;
     color: #fff;
 }
+
 @media only screen and (max-width:768px) {
     nav.header__inline-menu {
         display: none;
