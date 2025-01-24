@@ -19,6 +19,7 @@ p {
 .btn.btn-primary:hover {
     background-color: #fff;
     color: #000;
+  border:solid;
 }
 
 .custom-product-block .card img {
