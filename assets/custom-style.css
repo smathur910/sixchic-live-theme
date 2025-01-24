@@ -286,15 +286,6 @@ a.pagination__item.pagination__item--current.light {
 
 
 
-              .button-floating:hover{
-                background-color: #000;
-              }
-
-        .button-floating:hover svg, .button-floating:hover .wishlist_text{
-          fill: #fff;
-          color: #fff;
-        }
-
               .wishlist_text{
                 margin-left: 7px !important;;
                 margin: 0px;
