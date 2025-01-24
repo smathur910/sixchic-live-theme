@@ -59,19 +59,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Populate Wishlist Page
-  const wishlistPage = document.querySelector(".wishlist-page");
-  if (wishlistPage) {
-    if (wishlist.length === 0) {
-      wishlistPage.innerHTML = "<p>Your wishlist is empty.</p>";
-    } else {
-      wishlistPage.innerHTML = wishlist
-        .map(
-          (item) =>
-            `<div>
-               <p>${item.title}</p>
-             </div>`
-        )
-        .join("");
-    }
+ document.addEventListener("DOMContentLoaded", () => {
+  const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+  const wishlistContainer = document.getElementById("wishlist-items");
+
+  if (!wishlistContainer) return;
+
+  if (wishlist.length === 0) {
+    wishlistContainer.innerHTML = "<p>Your wishlist is empty.</p>";
+  } else {
+    wishlistContainer.innerHTML = wishlist
+      .map(
+        (item) => `
+      <div class="wishlist-item">
+        <p>${item.title}</p>
+        <a href="/products/${item.id}" class="wishlist-link">View Product</a>
+      </div>
+    `
+      )
+      .join("");
   }
+});
+
 });
