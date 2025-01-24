@@ -250,7 +250,7 @@ header.header.header--middle-left.header--mobile-center.page-width.header--has-m
     flex-wrap: nowrap !important; 
     justify-content: center;
 }
-.pagination__list>li:not(:last-child) {
+.pagination__item{
     margin-right: 1rem;
     border: 1px solid #000;
     border-radius: 5px;
