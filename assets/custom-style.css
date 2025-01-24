@@ -295,16 +295,18 @@ a.pagination__item.pagination__item--current.light {
 
   .banner-slider .has-banner-content {
     background: transparent;
+    width: 100%;
   }
 
   .banner-slider .banner-title {
-    color: #ffffff;
+        font-size: 2rem !important;
+    color: #ffffff !important;
   }
   #uniqueCarousel .carousel-card {
     flex-direction: column;
-}
+  }
   #uniqueCarousel .review-imge {
-    width: 115px;
-    height: 115px;
-}
+    width: 115px !important;
+    height: 115px !important;
+  }
 }
