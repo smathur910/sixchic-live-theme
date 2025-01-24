@@ -63,9 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
   const wishlistContainer = document.getElementById("wishlist-items");
 
-  if (!wishlistContainer) return;
+  // if (!wishlistContainer) return;
 
   if (wishlist.length === 0) {
+    console.log('here')
     wishlistContainer.innerHTML = "<p>Your wishlist is empty.</p>";
   } else {
     wishlistContainer.innerHTML = wishlist
