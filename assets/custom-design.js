@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
                          <a class="full-unstyled-link" href="${item.productUrl}">${item.productTitle}</a>
                      </h3>
                      <p>${item.productPrice}</p>
-       {% comment %}<button onclick="removeFromWishlist('${item.productTitle}')">Remove</button> {% endcomment %}
+              <button onclick="removeFromWishlist('${item.productTitle}')">Remove</button>
                  </div>
              </div>
          `).join('');
