@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     multipleItemCarousel.classList.add("slide");
   }
 });
-
+console.log('here')
 
 document.addEventListener("DOMContentLoaded", () => {
   const wishlistButtons = document.querySelectorAll(".add-to-wishlist");
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const wishlistContainer = document.getElementById("wishlist-items");
 
   // if (!wishlistContainer) return;
-console.log('here',wishlistContainer)
+
   if (wishlist.length === 0) {
     
     wishlistContainer.innerHTML = "<p>Your wishlist is empty.</p>";
