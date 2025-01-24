@@ -106,6 +106,10 @@
           {%- endif -%}
         </div>
       {%- endform -%}
+            <button class="add-to-wishlist" data-product-id="{{ product.id }}" data-product-title="{{ product.title }}">
+  Add to Wishlist
+</button>
+
     </product-form>
   {%- else -%}
     <div class="product-form">
