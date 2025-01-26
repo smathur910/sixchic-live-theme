@@ -199,6 +199,7 @@
     },
     "testimonial_slider_pACr6z": {
       "type": "testimonial-slider",
+      "disabled": true,
       "settings": {}
     },
     "17212408387f25e7db": {
