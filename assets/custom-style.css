@@ -291,6 +291,11 @@ a.pagination__item.pagination__item--current.light {
 .announcement-bar, .announcement-bar__announcement {
     text-transform: uppercase;
 }
+h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
 @media only screen and (min-width: 768px) and (max-width: 1240px) {
   #homepage-product .btn.btn-primary {
     font-size: 2rem;
