@@ -222,6 +222,18 @@
     },
     "17212413687d581268": {
       "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_cphkjM": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "",
+            "debugging_script": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_cphkjM"
+      ],
       "settings": {
         "include_margins": true
       }
