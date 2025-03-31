@@ -41,6 +41,15 @@
             "swatch_shape": "circle"
           }
         },
+        "collapsible_tab_4kcXtF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -75,6 +84,7 @@
         "caption",
         "price",
         "variant_picker",
+        "collapsible_tab_4kcXtF",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_PiMNn9",
