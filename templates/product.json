@@ -44,9 +44,9 @@
         "collapsible_tab_4kcXtF": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Size Chart",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p><a href=\"/pages/size-chart\" title=\"Size Chart\">Size Chart</a></p>",
             "page": ""
           }
         },
