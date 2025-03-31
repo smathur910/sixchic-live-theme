@@ -41,6 +41,19 @@
             "swatch_shape": "circle"
           }
         },
+        "icon_with_text_xyL7Lk": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/SIZE_GUIDE.jpg",
+            "heading_1": "Size chart",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -75,6 +88,7 @@
         "caption",
         "price",
         "variant_picker",
+        "icon_with_text_xyL7Lk",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_PiMNn9",
