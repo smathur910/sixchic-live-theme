@@ -75,7 +75,7 @@
         "column_N7K3V9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WORKWEAR.jpg",
+            "image": "shopify://shop_images/E_1.jpg",
             "product_title": "workwear",
             "product_link": "shopify://collections/workwear"
           }
@@ -83,7 +83,7 @@
         "column_PpehnF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/RESORTWEAR.jpg",
+            "image": "shopify://shop_images/J.jpg",
             "product_title": "Resortwear",
             "product_link": "shopify://collections/resortwear"
           }
@@ -91,7 +91,7 @@
         "column_MmW9FV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CLUBBING.jpg",
+            "image": "shopify://shop_images/I.jpg",
             "product_title": "clubbing",
             "product_link": "shopify://collections/clubbing"
           }
@@ -99,7 +99,7 @@
         "column_cqhEjR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ON-TREND.jpg",
+            "image": "shopify://shop_images/M.jpg",
             "product_title": "on-trend",
             "product_link": "shopify://collections/on-trend"
           }
@@ -157,7 +157,7 @@
         "column_B7DVxA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/SHIRTSBLOUSES.jpg",
+            "image": "shopify://shop_images/F.jpg",
             "product_title": "JACKETS/SHIRTS",
             "product_link": "shopify://collections/shirts-blouses"
           }
@@ -165,7 +165,7 @@
         "column_BVidtX": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PANTSTROUSERS.jpg",
+            "image": "shopify://shop_images/Q.jpg",
             "product_title": "PANTS/TROUSERS",
             "product_link": "shopify://collections/pants-trousers"
           }
@@ -173,7 +173,7 @@
         "column_gLNJ6n": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/G.jpg",
+            "image": "shopify://shop_images/C.jpg",
             "product_title": "DRESSES/JUMPSUITS",
             "product_link": "shopify://collections/dresses-jumpsuits"
           }
@@ -181,7 +181,7 @@
         "column_DNXiNB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CO-ORDS.jpg",
+            "image": "shopify://shop_images/N.jpg",
             "product_title": "CO-ORDS",
             "product_link": "shopify://collections/co-ords"
           }
