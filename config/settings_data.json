@@ -152,6 +152,11 @@
           "debugging_global_script": "",
           "enable_reelPops": true
         }
+      },
+      "13731700976389606599": {
+        "type": "shopify://apps/coupon-x-discount-code-pop-up/blocks/coupon-x/49ebf3b1-06cb-46be-8af6-a07932a42780",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
