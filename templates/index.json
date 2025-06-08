@@ -116,6 +116,12 @@
         "my_id": "homepage-product"
       }
     },
+    "17212413687d581268": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "custom_liquid_V793hY": {
       "type": "custom-liquid",
       "settings": {
@@ -123,24 +129,6 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "17212413687d581268": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_cphkjM": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": "",
-            "debugging_script": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_cphkjM"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "image_banner_zwMpnL": {
@@ -222,17 +210,34 @@
     },
     "17212408387f25e7db": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1749353708420ad27e": {
+      "type": "apps",
       "blocks": {
-        "reelup_shoppable_videos_reels_reelup_stories_q3WXmz": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+        "instafeed_app_block_UExqkd": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "section_id": "",
-            "debugging_script": ""
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
           }
         }
       },
       "block_order": [
-        "reelup_shoppable_videos_reels_reelup_stories_q3WXmz"
+        "instafeed_app_block_UExqkd"
       ],
       "settings": {
         "include_margins": true
@@ -249,6 +254,7 @@
     "custom_liquid_KEJRyy",
     "custom_product_blocks_rLiFtE",
     "testimonial_slider_pACr6z",
-    "17212408387f25e7db"
+    "17212408387f25e7db",
+    "1749353708420ad27e"
   ]
 }
